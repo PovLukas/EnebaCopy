@@ -99,6 +99,24 @@ nav {
     gap: 0.5rem;
 }
 
+.promotion-cards {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr;
+    height: 25vh;
+}
+
+.promotion-card {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.promotion-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 @media only screen and (max-width: 930px) {
     .logo {
         width: 160px;
@@ -135,5 +153,10 @@ nav {
 
     .burger-button {
         display: inline-block;
+    }
+
+    .promotion-cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 40vh;
     }
 }
