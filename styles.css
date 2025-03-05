@@ -117,6 +117,31 @@ nav {
     object-fit: cover;
 }
 
+.icon-links {
+    background-color: rgb(70,24,172);
+    display: flex;
+    gap: 2.2rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    color: white;
+}
+
+.icon-wrapper img {
+    width: 40px;
+}
+
+.arrow {
+    width: 22px;
+}
+
 @media only screen and (max-width: 930px) {
     .logo {
         width: 160px;
@@ -158,5 +183,9 @@ nav {
     .promotion-cards {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         height: 40vh;
+    }
+
+    .icon-dissapear {
+        display: none;
     }
 }
