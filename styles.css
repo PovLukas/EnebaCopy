@@ -12,6 +12,7 @@ header {
     align-items: center;
     gap: 1rem;
     color: white;
+    padding-right: 1rem;
 }
 
 header input {
@@ -78,10 +79,33 @@ header button {
     display: flex;
 }
 
+nav img {
+    width: 22px;
+}
+
+nav {
+    background-color: rgb(52,18,129);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(235, 235, 235);
+    font-weight: 500;
+}
+
+.nav-burger {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
 
 @media only screen and (max-width: 930px) {
     .logo {
         width: 160px;
+    }
+
+    nav {
+        display: none;
     }
 
     header input {
